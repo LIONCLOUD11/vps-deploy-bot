@@ -12,9 +12,9 @@ clear
 echo -e "${CYAN}"
 echo "╔═══════════════════════════════════════╗"
 echo "║      VPS Deploy Bot Installer 🚀      ║"
-echo "║         Script by HycroeDev           ║"
+echo "║         Script by ⚡ᴀʏᴀɴ⚡           ║"
 echo "╚═══════════════════════════════════════╝"
-echo -e "${NC}"
+echo -e "${NC}" 
 sleep 2
 
 # Spinner function
@@ -75,7 +75,7 @@ read ADMIN_ROLE
 # Auto-edit bot.py
 run_cmd "Configuring bot.py" \
 "sed -i \"s|^TOKEN = .*|TOKEN = '${BOT_TOKEN}'  # BOT TOKEN|\" bot.py && \
- sed -i \"s|^RAM_LIMIT = .*|RAM_LIMIT = '2g'|\" bot.py && \
+ sed -i \"s|^RAM_LIMIT = .*|RAM_LIMIT = '10g'|\" bot.py && \
  sed -i \"s|^SERVER_LIMIT = .*|SERVER_LIMIT = 12|\" bot.py && \
  sed -i \"s|^LOGS_CHANNEL_ID = .*|LOGS_CHANNEL_ID = ${LOGS_CHANNEL}    # LOGS CHANNEL|\" bot.py && \
  sed -i \"s|^ADMIN_ROLE_ID = .*|ADMIN_ROLE_ID = ${ADMIN_ROLE}     # ADMIN ROLE|\" bot.py"
@@ -115,6 +115,6 @@ fi
 echo -e "${GREEN}"
 echo "╔═══════════════════════════════════════╗"
 echo "║  Installation Complete! 🚀            ║"
-echo "║  Script made with ❤️ by HycroeDev     ║"
+echo "║  Script made with ❤️ by ⚡ᴀʏᴀɴ⚡     ║"
 echo "╚═══════════════════════════════════════╝"
 echo -e "${NC}"
