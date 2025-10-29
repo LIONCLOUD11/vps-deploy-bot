@@ -19,7 +19,9 @@ Simple docker build scripts for multiple Linux-based VPS containers.
 
 ## Installation
 
-- bash <(curl -fsSL https://raw.githubusercontent.com/LIONCLOUD11/vps-deploy-bot/main/install.sh)
+-``` bash <(curl -fsSL https://raw.githubusercontent.com/LIONCLOUD11/vps-deploy-bot/main/install.sh)```
+
+```systemctl status vps-bot```
 
 ## Credits
 
